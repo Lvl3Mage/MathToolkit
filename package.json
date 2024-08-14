@@ -1,0 +1,19 @@
+﻿{
+  "name": "com.lvl3mage.com.lvl3mage.math-toolkit",
+  "version": "1.0.0",
+  "displayName": "Math Toolkit",
+  "description": "A utility library containing some useful math oriented functions",
+  "unity": "2021.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvl3mage/MathToolkit.git"
+  },
+  "keywords": [
+  ],
+  "author": "lvl3mage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lvl3mage/MathToolkit/issues"
+  },
+  "homepage": "https://github.com/lvl3mage/MathToolkit#readme"
+}
