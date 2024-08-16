@@ -6,12 +6,12 @@
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <!-- BEGIN opengraph metadata -->
-<meta property="og:title" content="Math Toolkit: Member List" />
+<meta property="og:title" content="Math Toolkit: Lvl3Mage.MathToolkit.RangeTools Class Reference" />
 <!-- <meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" /> -->
 <meta property="og:description" content="A utility library containing some useful math oriented functions" />
 <meta property="og:url" content="https://lvl3mage.github.io/MathToolkit" />
 <!-- END opengraph metadata -->
-<title>Math Toolkit: Member List</title>
+<title>Math Toolkit: Lvl3Mage.MathToolkit.RangeTools Class Reference</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -96,7 +96,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('a00023.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('a00020.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -115,20 +115,239 @@ $(document).ready(function(){initNavTree('a00023.html',''); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Lvl3Mage.MathToolkit.Curves Member List</div></div>
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="a00017.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Lvl3Mage.MathToolkit.RangeTools Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a88c680618d096fd9c852683c0e7e893a"><td class="memItemLeft" align="right" valign="top">static float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html#a88c680618d096fd9c852683c0e7e893a">NormalizeAngleRange</a> (float[] angles)</td></tr>
+<tr class="memdesc:a88c680618d096fd9c852683c0e7e893a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes discontinuities in a sequence of angles. Recalculates all except the first angle in relation to the previous angle.  <a href="a00020.html#a88c680618d096fd9c852683c0e7e893a">More...</a><br /></td></tr>
+<tr class="separator:a88c680618d096fd9c852683c0e7e893a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a3e2405f7ffc4c71562dff10978df4"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html#a68a3e2405f7ffc4c71562dff10978df4">NormalizeAngleRange</a> (float from, float to)</td></tr>
+<tr class="memdesc:a68a3e2405f7ffc4c71562dff10978df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes discontinuities between two angles by recalculating the target angle in relation to the starting angle.  <a href="a00020.html#a68a3e2405f7ffc4c71562dff10978df4">More...</a><br /></td></tr>
+<tr class="separator:a68a3e2405f7ffc4c71562dff10978df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4974fa8ac94106d4c7e2eaecd72f570d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html#a4974fa8ac94106d4c7e2eaecd72f570d">TransformRange</a> (float value, float min, float max, float newMin, float newMax)</td></tr>
+<tr class="memdesc:a4974fa8ac94106d4c7e2eaecd72f570d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a value from one range to another. Unclamped.  <a href="a00020.html#a4974fa8ac94106d4c7e2eaecd72f570d">More...</a><br /></td></tr>
+<tr class="separator:a4974fa8ac94106d4c7e2eaecd72f570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad229de0978fbc0a8e4acd43d4b4eeb33"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html#ad229de0978fbc0a8e4acd43d4b4eeb33">TransformRange</a> (float value, Vector2 inputRange, Vector2 outputRange)</td></tr>
+<tr class="memdesc:ad229de0978fbc0a8e4acd43d4b4eeb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a value from one range to another. Unclamped.  <a href="a00020.html#ad229de0978fbc0a8e4acd43d4b4eeb33">More...</a><br /></td></tr>
+<tr class="separator:ad229de0978fbc0a8e4acd43d4b4eeb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a68a3e2405f7ffc4c71562dff10978df4" name="a68a3e2405f7ffc4c71562dff10978df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68a3e2405f7ffc4c71562dff10978df4">&#9670;&nbsp;</a></span>NormalizeAngleRange() <span class="overload">[1/2]</span></h2>
 
-<p>This is the complete list of members for <a class="el" href="a00023.html">Lvl3Mage.MathToolkit.Curves</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a00023.html#aee6d44e12981e1be3f90a4018953cd05">SymmetricalCurve</a>(float t, float slope)</td><td class="entry"><a class="el" href="a00023.html">Lvl3Mage.MathToolkit.Curves</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="a00023.html#a5ca3d7179c9e9d7a67521431436f2cd3">ValueActivation</a>(float val, float slope)</td><td class="entry"><a class="el" href="a00023.html">Lvl3Mage.MathToolkit.Curves</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00023.html#aebb235a35b139b90b1337904003704a3">ValueDecay</a>(float value, float halfPoint)</td><td class="entry"><a class="el" href="a00023.html">Lvl3Mage.MathToolkit.Curves</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Lvl3Mage.MathToolkit.RangeTools.NormalizeAngleRange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes discontinuities between two angles by recalculating the target angle in relation to the starting angle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from</td><td>The starting angle. </td></tr>
+    <tr><td class="paramname">to</td><td>The target angle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The target angle modified to remove discontinuities from the starting angle. </dd></dl>
+
+</div>
+</div>
+<a id="a88c680618d096fd9c852683c0e7e893a" name="a88c680618d096fd9c852683c0e7e893a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c680618d096fd9c852683c0e7e893a">&#9670;&nbsp;</a></span>NormalizeAngleRange() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float[] Lvl3Mage.MathToolkit.RangeTools.NormalizeAngleRange </td>
+          <td>(</td>
+          <td class="paramtype">float[]&#160;</td>
+          <td class="paramname"><em>angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes discontinuities in a sequence of angles. Recalculates all except the first angle in relation to the previous angle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angles</td><td>An array of angles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The array of angles with discontinuities removed. </dd></dl>
+
+</div>
+</div>
+<a id="a4974fa8ac94106d4c7e2eaecd72f570d" name="a4974fa8ac94106d4c7e2eaecd72f570d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4974fa8ac94106d4c7e2eaecd72f570d">&#9670;&nbsp;</a></span>TransformRange() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Lvl3Mage.MathToolkit.RangeTools.TransformRange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transforms a value from one range to another. Unclamped. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>An input value in range min to max. </td></tr>
+    <tr><td class="paramname">min</td><td>The minimum value of the input range. </td></tr>
+    <tr><td class="paramname">max</td><td>The maximum value of the input range. </td></tr>
+    <tr><td class="paramname">newMin</td><td>The minimum value of the output range. </td></tr>
+    <tr><td class="paramname">newMax</td><td>The maximum value of the output range. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value transformed to the new range. </dd></dl>
+
+</div>
+</div>
+<a id="ad229de0978fbc0a8e4acd43d4b4eeb33" name="ad229de0978fbc0a8e4acd43d4b4eeb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad229de0978fbc0a8e4acd43d4b4eeb33">&#9670;&nbsp;</a></span>TransformRange() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Lvl3Mage.MathToolkit.RangeTools.TransformRange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>inputRange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>outputRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transforms a value from one range to another. Unclamped. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>An input value in range inputRange. </td></tr>
+    <tr><td class="paramname">inputRange</td><td>The input range. </td></tr>
+    <tr><td class="paramname">outputRange</td><td>The output range. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value transformed to the new range. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>RangeTools.cs</li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a00014.html">Lvl3Mage</a></li><li class="navelem"><a class="el" href="a00015.html">MathToolkit</a></li><li class="navelem"><a class="el" href="a00020.html">RangeTools</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>

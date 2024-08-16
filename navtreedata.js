@@ -25,14 +25,16 @@
 var NAVTREE =
 [
   [ "Math Toolkit", "index.html", [
-    [ "Math Toolkit", "index.html#autotoc_md1", [
-      [ "Requirements", "index.html#autotoc_md2", null ],
-      [ "Installation", "index.html#autotoc_md3", null ],
-      [ "Documentation", "index.html#autotoc_md4", null ],
-      [ "Author", "index.html#autotoc_md5", null ]
+    [ "Math Toolkit", "index.html#autotoc_md2", [
+      [ "Requirements", "index.html#autotoc_md3", null ],
+      [ "Installation", "index.html#autotoc_md4", null ],
+      [ "Documentation", "index.html#autotoc_md5", null ],
+      [ "Author", "index.html#autotoc_md6", null ]
     ] ],
-    [ "[1.0.0] -", "a00032.html", null ],
-    [ "LICENSE", "a00033.html", null ],
+    [ "[1.0.0] -", "a00025.html", [
+      [ "[1.0.2] -", "a00025.html#autotoc_md1", null ]
+    ] ],
+    [ "LICENSE", "a00026.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -49,7 +51,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"a00017.html"
+"a00014.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

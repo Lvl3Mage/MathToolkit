@@ -1,9 +1,9 @@
 var indexSectionsWithContent =
 {
-  0: "[clmnstv",
-  1: "cl",
+  0: "[lmnrt",
+  1: "r",
   2: "l",
-  3: "nstv",
+  3: "nt",
   4: "[lm"
 };
 
