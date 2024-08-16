@@ -2,8 +2,26 @@
 
 namespace Lvl3Mage.MathToolkit
 {
-	public static class Linear
+	public static class RangeTools
 	{
+		/// <summary>
+		/// Removes discontinuities in a sequence of angles. Recalculates all except the first angle in relation to the previous angle.
+		/// </summary>
+		/// <param name="angles">
+		/// An array of angles.
+		/// </param>
+		/// <returns>
+		/// The array of angles with discontinuities removed.
+		/// </returns>
+		public static float[] NormalizeAngleRange(float[] angles)
+		{
+			float[] normalized = new float[angles.Length];
+			for (int i = 1; i < angles.Length; i++){
+				normalized[i] = NormalizeAngleRange(angles[i - 1], angles[i]);
+			}
+
+			return normalized;
+		}
 		/// <summary>
 		/// Removes discontinuities between two angles by recalculating the target angle in relation to the starting angle.
 		/// </summary>
